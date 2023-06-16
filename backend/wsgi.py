@@ -14,7 +14,7 @@ ENV_FILE = BASE_DIR / '.env'
 
 if ENV_FILE.exists():
 	dotenv.read_dotenv(str(ENV_FILE))
-# dotenv.read_dotenv(str(ENV_FILE))
+# dotenv.read_dotenv(str(ENV_FILE)) 
 
 from django.core.wsgi import get_wsgi_application
 
